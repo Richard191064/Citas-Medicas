@@ -13,16 +13,16 @@
 **Carrera:** Ing. Sistemas Computacionales  **Practica:**   Programa WEB PHP c/  MVC     
 
 **INTALACION DE PAGINA CON TODO Y BASE DE DATOS**
-1._ Instalar XAMPP en un ordenador Windows es muy sencillo. Únicamente tendrás que descargarlo de su sitio web oficial y seguir los pasos de su asistente de instalación. (Recuerda que para instalarlo necesitarás, como mínimo, 256 MB de RAM y al menos 85 MB libres en tu equipo.) ![](image.png)
+1._ Instalar XAMPP en un ordenador Windows es muy sencillo. Únicamente tendrás que descargarlo de su sitio web oficial y seguir los pasos de su asistente de instalación. (Recuerda que para instalarlo necesitarás, como mínimo, 256 MB de RAM y al menos 85 MB libres en tu equipo.) ![](assets/image.png)
 (Imagen Numero1 Intalacion de XAMPP)
 
-2._ Una vez terminada la instalación únicamente tienes que hacer doble clic en el icono de XAMPP y empezar a disfrutar de tu servidor local. Desde la propia interfaz de XAMPP puedes activar y desactivar los módulos (Apache, MySQL, FileZilla, etc.) que necesites (Para esta prueba vamos a activar Apache y MySQL. Una vez activados solo tienes que poner en un navegador localhost, para ver lo que te proporciona XAMPP). ![](image-1.png)
+2._ Una vez terminada la instalación únicamente tienes que hacer doble clic en el icono de XAMPP y empezar a disfrutar de tu servidor local. Desde la propia interfaz de XAMPP puedes activar y desactivar los módulos (Apache, MySQL, FileZilla, etc.) que necesites (Para esta prueba vamos a activar Apache y MySQL. Una vez activados solo tienes que poner en un navegador localhost, para ver lo que te proporciona XAMPP). ![](assets/image-1.png)
 (Imagen Numero2 Como Utilizar XAMPP)
 
 
-3._ Recuerda que si has desplegado MySQL, XAMPP viene con phpMyAdmin, un gestor de bases de datos muy extendido en el que podrás hacer cualquier gestión de una base de datos. Para acceder a phpMyAdmin solamente tendrás que introducir en tu navegador (Aquí podrás crear, importar o exportar las bases de datos necesarias para tu proyecto. Recuerda que en el panel de control de XAMPP tienes un acceso directo a la carpeta donde guardar tus archivos y que estos se vean a través del navegador en localhost. Si no has modificado las rutas en la instalación, debería ser)    C:\xampp\htdocs ![](image-2.png)
+3._ Recuerda que si has desplegado MySQL, XAMPP viene con phpMyAdmin, un gestor de bases de datos muy extendido en el que podrás hacer cualquier gestión de una base de datos. Para acceder a phpMyAdmin solamente tendrás que introducir en tu navegador (Aquí podrás crear, importar o exportar las bases de datos necesarias para tu proyecto. Recuerda que en el panel de control de XAMPP tienes un acceso directo a la carpeta donde guardar tus archivos y que estos se vean a través del navegador en localhost. Si no has modificado las rutas en la instalación, debería ser)    C:\xampp\htdocs ![](assets/image-2.png)
 (Imagen Numero3 Visualisar la Pagina)
-![](image-3.png)
+![](assets/image-3.png)
 (Imagen Numero4 Visualizar la Base de Datos de la Pagina)
 
 http://localhost/phpmyadmin/
@@ -51,7 +51,7 @@ Ya sea que necesites una consulta de rutina, una visita a un especialista o un s
 
 Únete a nosotros en "Citas Médicas Meditas" y descubre una nueva forma de acceder a la atención médica: conveniente, eficiente y centrada en ti. Tu salud es nuestra prioridad, y estamos aquí para apoyarte en cada paso del camino. 
 
-![alt text](image-4.png)
+![alt text](assets/image-4.png)
 
 Se realiza el index.jsx donde se va a utilizar en nuestra página web por React. Donde se explica que es lo que vamos a realizar por cada parte desde la importación de los estilos como también en donde se va haciendo cada movimiento que aparece en los div como sus componentes de cada sección.   
 
@@ -69,12 +69,12 @@ Sobre el encabezado tiene esta formado por parte de varias ventanas donde nos co
 
 Y da mención de las varias ventanas de lo que se agrega en cada sección de un hospital en general con sus características  
 
-![alt text](image-5.png)
+![alt text](assets/image-5.png)
 Imagen 3 
 
 Se realiza un formulario donde estará pidiendo datos en cados del paciente internos o externos con su mensaje a petición ya sea reclamo o dudas con ayuda pendiente y relación con una base de datos. 
 
-![alt text](image-6.png)
+![alt text](assets/image-6.png)
 Imagen 4 
 
 ![alt text](<assets/Captura de pantalla 2024-04-29 212427.png>)
@@ -84,7 +84,7 @@ Se les estará proporcionando más información acceso a otra página donde est�
 
 Donde genera cada bloque de logo los servicios y los apartados anteriores. 
 
-![alt text](image-7.png)
+![alt text](assets/image-7.png)
 Imagen 6
 
 **Conclusión**  
