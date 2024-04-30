@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title><img src="react.jpg" alt="" /> React App</title>
+    <link rel="stylesheet" href="%PUBLIC_URL%/style.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>	PAGINAREACT </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="imagenes/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Quienes somos</a></li>
+                    <li><a href="#">Servicio</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-contect container">
+            <div class="header-txt">
+                <h1>Medical Center</h1>
+                <p>
+                    HOLA, Aqui puedes hacer tus citas Medicas 
+                </p>
+                <a href="#" class="btn-1">informacion</a>
+            </div>
+            <div class="header-img">
+                <img src="imagenes/left.png" alt="">
+            </div>
+        </div>
+    </header>
+    <section class="about container">
+
+        <div class="about container">
+            <img src="imagenes/about.png" alt="">
+        </div>
+        <div class="about-txt">
+            <h2>Quienes somos</h2>
+            <p>
+              Somos una pagina de citas medicas, para que les pueda facilitar al momento de que quieran 
+              conseguir una cita facil y rapido en su disposicion de su mano. Contomas con varios servicios 
+              los que tenemos a disposicion son los que nos piden mas seguido las personas.
+            </p>
+        </div>
+    </section>
+    <main class="servicios">
+
+        <h2>Servicios</h2>
+        <div class="servicios-content container">
+            <div class="servicio-1">
+                <i class="fas fa-hospital-user"></i>
+             <h3>pediatria</h3>
+            </div>
+        
+            <div class="servicio-1">
+                <i class="fas fa-bed-pulse"></i>
+                <h3>dermatologia</h3>
+            </div>
+
+            <div class="servicio-1">
+            <i class="fas fa-stethoscope"></i>
+            <h3>ginecologia</h3>
+        </div>
+            <div class="servicio-1">
+                <i class="fas fa-hospital"></i>
+                <h3>cardeologia</h3>
+            </div>
+            
+        </div>
+    </main>
+    <section class="formulario container">
+        <form method="post" autocomplete="off">
+            <h2>Agenda consulta</h2>
+            <div class="imput-group">
+                <div class="input-container">
+                    <input type="text" name="name" placeholder="Nombre y Apellido">
+                    <i class="fas fa-user"></i>
+                </div>
+
+                <div class="input-container">
+                    <input type="tel" name="phone" placeholder="Telefono Celular">
+                    <i class="fas fa-phone"></i>
+                </div>
+
+                <div class="input-container">
+                    <input type="email" name="email" placeholder="Correo Electronico">
+                    <i class="fas fa-envelope"></i>
+                </div>
+
+                <div class="input-container">
+                    <textarea name="message" placeholder="Detalles de la Consulta"></textarea>
+                </div>
+
+                <input type="submit" name="send" class="btn" onclick="myFunction()">
+            </div>
+        </form>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <a href="#" class="logo">logo</a>
+           </div>
+           <div class="link">
+              <ul>
+                  <li><a href="#">Inicio</a></li>
+                  <li><a href="https://www.porunpaismejor.com.mx/quienes_somos.html">Quines somos</a></li>
+                  <li><a href="#">Servicios</a></li>
+                  <li><a href="AtencionClientes.HTML">Contacto</a></li>
+                  </ul>
+           </div>
+        </div>
+    </footer>
+
+    <script>
+        function myFunction (){
+            window.location.href="http://localhost/PAGINA"
+        }
+        
+    </script>
+    
+</body>
+</html>
